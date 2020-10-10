@@ -11,9 +11,9 @@ Project done as a part of CSE-6331 Cloud Computing course at UTA.
 
 <p>23,140,45 represents a pixel with red=23, green=140, and blue=45.</p>
 
-<p>You should write one Map-Reduce job in the Java file src/main/java/Histogram.java. An empty src/main/java/Histogram.java has been provided, as well as scripts to build and run this code on Comet. You should modify the Histogram.java only.</p>
+<p>You should write one Map-Reduce job in the Java file src/main/java/Histogram.java. You should modify the Histogram.java only.</p>
 
-To help you, I am giving you the pseudo code:
+The pseudo code:
 
 ```
 class Color {
@@ -32,4 +32,5 @@ reduce ( color, values )
       sum += v
   emit( color, sum )
 ```
+
 In your Java main program args[0] is the file with the pixels (pixels-small.txt or pixels-large.txt) and args[1] is the output directory.
