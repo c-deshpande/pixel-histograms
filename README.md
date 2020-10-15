@@ -1,5 +1,5 @@
 # pixel-histograms
-Generate Histogram for each RGB color in the given dataset.
+Generate Histogram for each RGB color in the given dataset using Hadoop MapReduce.
 
 Project done as a part of CSE-6331 Cloud Computing course at UTA.
 
